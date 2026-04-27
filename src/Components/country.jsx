@@ -3,7 +3,7 @@ import React from 'react'
 export default function country(props) {
   return  (
    
-   <div className='flex justify-around w-full h-full p-7 bg-green-100 text-sm rounded-lg shadow-md' >
+   <div className='m-1 flex justify-around w-full h-full p-7 bg-green-100 text-sm rounded-lg shadow-md' >
        <div>
         <h1 className='text-[25px] font-bold text-gray-900'>{props.country.name.common}</h1>
         <p className='text-gray-700'>Capital: {props.country.capital[0]}</p>
